@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(213, 214, 214);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18.5em 0;
+}
+
+div h1 {
+    margin-bottom: 16px;
+}
+
+form input,
+button {
+    height: 35px;
+    padding: 8px;
+}
+
+form input {
+    width: 200px;
+}
+
+form button {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+#descricao textarea {
+    height: 92px;
+    width: 288px;
+    resize: none;
+}
+
+#descricao {
+    display: none;
+}
+
+#feito {
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+
+#excluir {
+    background-color: red;
+    color: #fff;
+    border: none;
+}
